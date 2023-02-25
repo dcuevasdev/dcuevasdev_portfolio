@@ -1,20 +1,26 @@
 /*======Colors======*/
+$primary-color: #3e00ff;
+$text-color: #4d4d4d;
+$background-color: #f6f9ff;
+
 /*======Font======*/
 @font-face {
   font-family: "libre-franklin";
   src: url("../../Assets/Fonts/LibreFranklin-VariableFont_wght.ttf");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
+
 /*======Globals======*/
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 html {
   font-family: "libre-franklin";
   font-size: 62.5%;
   line-height: 1.5;
-  background-color: #f6f9ff; }
-
-/*# sourceMappingURL=style.css.map */
+  background-color: $background-color;
+}
