@@ -26,11 +26,18 @@ html {
 .header {
   align-items: center; }
   .header__nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
     width: 36rem;
-    height: 2.4rem; }
+    height: 2.4rem;
+    background-color: transparent; }
     .header__nav-menu {
-      display: flex;
+      flex-direction: row;
       justify-content: space-between;
       align-content: center; }
+  .header__toggle {
+    display: none; }
 
 /*# sourceMappingURL=desktop.css.map */
