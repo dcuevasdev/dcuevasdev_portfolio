@@ -8,10 +8,16 @@
     }
     &-title {
       font-size: 3.2rem;
+      .em-v {
+        font-size: 2.4rem;
+      }
     }
     &-description {
       margin-top: 1.6rem;
       font-size: 1.6rem;
+      b {
+        color: $primary-color;
+      }
     }
   }
   &__social {
@@ -25,6 +31,7 @@
   }
   &__image {
     position: relative;
+    margin-top: 1.6rem;
     &-decoration {
       position: absolute;
       top: 25%;
@@ -33,7 +40,9 @@
       z-index: -1;
     }
     &-profile {
-      width: 100%;
+      display: block;
+      width: 70%;
+      margin: 0 auto;
     }
   }
 }

@@ -21,3 +21,25 @@
     display: none;
   }
 }
+
+/*======Hero======*/
+.hero {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  &__info {
+    width: 70%;
+  }
+  &__image {
+    margin-top: 0;
+    &-decoration {
+      width: 15rem;
+      left: 2.4rem;
+      top: 5.6rem;
+    }
+    &-profile {
+      width: 90%;
+      margin: 0 0 0 auto;
+    }
+  }
+}

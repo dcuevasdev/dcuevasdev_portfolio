@@ -40,4 +40,21 @@ html {
   .header__toggle {
     display: none; }
 
+/*======Hero======*/
+.hero {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .hero__info {
+    width: 70%; }
+  .hero__image {
+    margin-top: 0; }
+    .hero__image-decoration {
+      width: 15rem;
+      left: 2.4rem;
+      top: 5.6rem; }
+    .hero__image-profile {
+      width: 90%;
+      margin: 0 0 0 auto; }
+
 /*# sourceMappingURL=desktop.css.map */

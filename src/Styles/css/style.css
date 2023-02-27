@@ -74,9 +74,13 @@ html {
     width: 9rem; }
   .hero__info-title {
     font-size: 3.2rem; }
+    .hero__info-title .em-v {
+      font-size: 2.4rem; }
   .hero__info-description {
     margin-top: 1.6rem;
     font-size: 1.6rem; }
+    .hero__info-description b {
+      color: #3e00ff; }
   .hero__social {
     display: flex;
     gap: 1.6rem;
@@ -85,7 +89,8 @@ html {
       width: 3.2rem;
       cursor: pointer; }
   .hero__image {
-    position: relative; }
+    position: relative;
+    margin-top: 1.6rem; }
     .hero__image-decoration {
       position: absolute;
       top: 25%;
@@ -93,6 +98,8 @@ html {
       width: 25%;
       z-index: -1; }
     .hero__image-profile {
-      width: 100%; }
+      display: block;
+      width: 70%;
+      margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
