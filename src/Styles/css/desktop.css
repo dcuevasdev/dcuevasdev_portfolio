@@ -24,18 +24,13 @@ html {
 
 /*======Header======*/
 .header {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 1.6rem; }
+  align-items: center; }
   .header__nav {
-    font-size: 1.6rem; }
+    width: 36rem;
+    height: 2.4rem; }
     .header__nav-menu {
-      list-style: none; }
-      .header__nav-menu li a {
-        color: #4d4d4d;
-        text-decoration: none;
-        cursor: pointer; }
-      .header__nav-menu li:hover a {
-        color: #3e00ff; }
+      display: flex;
+      justify-content: space-between;
+      align-content: center; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=desktop.css.map */

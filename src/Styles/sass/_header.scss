@@ -1,0 +1,20 @@
+/*======Header======*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.6rem;
+  &__nav {
+    font-size: 1.6rem;
+    &-menu {
+      list-style: none;
+      li a {
+        color: $text-color;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      li:hover a {
+        color: $primary-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import "_globalAndVariables";
+
+/*======Header======*/
+.header {
+  align-items: center;
+  &__nav {
+    width: 36rem;
+    height: 2.4rem;
+    &-menu {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+    }
+  }
+}
