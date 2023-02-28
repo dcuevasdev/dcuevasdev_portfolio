@@ -1,0 +1,71 @@
+.about {
+  position: relative;
+  margin-top: 4.8rem;
+  &__title {
+    font-size: 2.4rem;
+  }
+  &__info {
+    margin-top: 1.6rem;
+    padding: 1.6rem;
+    border-radius: 1.6rem;
+    background-color: #fff;
+    &-title {
+      font-size: 2rem;
+    }
+    &-description {
+      margin-top: 1.6rem;
+      font-size: 1.6rem;
+    }
+    &-titleSkills {
+      margin-top: 1.6rem;
+      font-size: 1.6rem;
+    }
+    &-skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 1.6rem;
+      .skill__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+        small {
+          font-size: 1.2rem;
+          font-weight: 900;
+        }
+      }
+    }
+  }
+  &__teach {
+    margin-top: 1.6rem;
+    padding: 1.6rem;
+    border-radius: 1.6rem;
+    background-color: #fff;
+    &-title {
+      font-size: 2rem;
+      .em-pencil2 {
+        font-size: 1rem;
+      }
+    }
+    &-description {
+      margin-top: 1.6rem;
+      font-size: 1.6rem;
+      a {
+        font-weight: 600;
+        color: $primary-color;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  &__decoration {
+    position: absolute;
+    right: 0;
+    margin-top: 2.4rem;
+    width: 9rem;
+  }
+}
