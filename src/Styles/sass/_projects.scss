@@ -10,14 +10,22 @@
     margin-top: 1.6rem;
     li {
       width: 33%;
-      font-size: 1.6rem;
       text-align: center;
       list-style: none;
-      border-bottom: 1px solid black;
-      a {
+      button {
+        width: 100%;
+        height: 100%;
+        padding: 0.4rem;
+        border: none;
+        background: none;
+        font-size: 1.4rem;
         color: $text-color;
-        text-decoration: none;
+        cursor: pointer;
+        outline: none;
       }
+    }
+    .line-visible {
+      border-bottom: 0.4rem solid $primary-color;
     }
   }
   &__cards {
@@ -116,5 +124,8 @@
         }
       }
     }
+  }
+  &__visible {
+    display: none;
   }
 }

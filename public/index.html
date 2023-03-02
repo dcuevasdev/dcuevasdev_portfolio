@@ -146,11 +146,19 @@
       <section class="projects" id="projects">
         <h2 class="projects__title">Proyectos</h2>
         <ul class="projects__areas">
-          <li><a href="#">Proyectos personales</a></li>
-          <li><a href="#">Retos</a></li>
-          <li><a href="#">Otros proyectos</a></li>
+          <li>
+            <button id="toggle-personalProjects" class="line-visible">
+              Proyectos personales
+            </button>
+          </li>
+          <li>
+            <button id="toggle-challenges">Retos</button>
+          </li>
+          <li>
+            <button id="toggle-otherProjects">Otros proyectos</button>
+          </li>
         </ul>
-        <div class="projects__cards">
+        <div id="personalProjects" class="projects__cards">
           <div class="card">
             <img
               src="../src/Assets/Images/dcuevas-portada.jpg"
@@ -224,7 +232,7 @@
             </div>
           </div>
         </div>
-        <div class="projects__cards">
+        <div id="challengesProjects" class="projects__visible">
           <div class="card">
             <img
               src="../src/Assets/Images/frontendMentor-portada.jpg"
@@ -301,10 +309,10 @@
             </div>
           </div>
         </div>
-        <div class="projects__cards">
+        <div id="otherProjects" class="projects__visible">
           <div class="card">
             <img
-              src="../src/Assets/Images/frontendMentor-portada.jpg"
+              src="../src/Assets/Images/bobinando-portada.jpg"
               alt="Imagen de portada"
               class="card__img"
             />
@@ -319,19 +327,13 @@
             </p>
             <div class="card__callToAction">
               <div class="button">
-                <a
-                  href="https://www.frontendmentor.io/profile/dcuevasdev"
-                  target="_blank"
-                >
+                <a href="https://www.bobinando.com/" target="_blank">
                   <i class="demo"></i>
                   <p>Demo</p>
                 </a>
               </div>
               <div class="button">
-                <a
-                  href="https://github.com/dcuevasdev/Frontend_Mentor_Challenges"
-                  target="_blank"
-                >
+                <a href="https://www.bobinando.com/" target="_blank">
                   <i class="code"></i>
                   <p>Code</p>
                 </a>
