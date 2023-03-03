@@ -4,62 +4,76 @@
   font-family: "libre-franklin";
   src: url("../../Assets/Fonts/LibreFranklin-VariableFont_wght.ttf");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 /*======Globals======*/
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 html {
   font-family: "libre-franklin";
   font-size: 62.5%;
   line-height: 1.5;
   background-color: #f6f9ff;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+}
 
 .container {
   width: 90%;
   max-width: 99.2rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 /*======Header======*/
 .header {
-  align-items: center; }
-  .header__nav {
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 36rem;
-    height: 2.4rem;
-    background-color: transparent; }
-    .header__nav-menu {
-      flex-direction: row;
-      justify-content: space-between;
-      align-content: center; }
-  .header__toggle {
-    display: none; }
+  align-items: center;
+}
+.header__nav {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 36rem;
+  height: 2.4rem;
+  background-color: transparent;
+}
+.header__nav-menu {
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.header__toggle {
+  display: none;
+}
 
 /*======Hero======*/
 .hero {
   flex-direction: row;
   justify-content: space-between;
-  align-items: center; }
-  .hero__info {
-    width: 70%; }
-  .hero__image {
-    margin-top: 0; }
-    .hero__image-decoration {
-      width: 15rem;
-      left: 2.4rem;
-      top: 5.6rem; }
-    .hero__image-profile {
-      width: 90%;
-      margin: 0 0 0 auto; }
+  align-items: center;
+}
+.hero__info {
+  width: 70%;
+}
+.hero__image {
+  margin-top: 0;
+}
+.hero__image-decoration {
+  width: 15rem;
+  left: 2.4rem;
+  top: 5.6rem;
+}
+.hero__image-profile {
+  width: 90%;
+  margin: 0 0 0 auto;
+}
 
 /*======Projects======*/
 .projects__cards {
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 /*# sourceMappingURL=desktop.css.map */

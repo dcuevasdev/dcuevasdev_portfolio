@@ -1,0 +1,15 @@
+{
+  "name": "dcuevasdev_portfolio",
+  "version": "1.0.0",
+  "description": "Portafolio web de Ivan Daniel Cuevas Rojas ",
+  "main": "index.js",
+  "scripts": {
+    "mobile": "sass --watch ./src/Styles/sass/style.scss:./src/Styles/css/style.css",
+    "desktop": "sass --watch ./src/Styles/sass/desktop.scss:./src/Styles/css/desktop.css"
+  },
+  "author": "Ivan Daniel Cuevas <ivandaniel1224@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
+}
