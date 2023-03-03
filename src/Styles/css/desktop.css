@@ -15,7 +15,8 @@ html {
   font-family: "libre-franklin";
   font-size: 62.5%;
   line-height: 1.5;
-  background-color: #f6f9ff; }
+  background-color: #f6f9ff;
+  scroll-behavior: smooth; }
 
 .container {
   width: 90%;

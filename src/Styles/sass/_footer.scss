@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 70rem;
+  margin: 8rem auto 2.4rem;
+  a {
+    font-size: 1.4rem;
+
+    color: $primary-color;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  a:hover {
+    font-weight: 700;
+    text-decoration: underline;
+  }
+}
