@@ -4,6 +4,7 @@
   "description": "Portafolio web de Ivan Daniel Cuevas Rojas ",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -d public",
     "mobile": "sass --watch ./src/Styles/sass/style.scss:./src/Styles/css/style.css",
     "desktop": "sass --watch ./src/Styles/sass/desktop.scss:./src/Styles/css/desktop.css"
   },
@@ -11,5 +12,8 @@
   "license": "MIT",
   "dependencies": {
     "sass": "^1.58.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
