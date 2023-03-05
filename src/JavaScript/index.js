@@ -1,6 +1,7 @@
 const buttonMenu = document.querySelector(".header__toggle");
 const navMenu = document.querySelector(".header__nav");
 const elementMenu = [...document.querySelectorAll(".nav__element")];
+const body = document.querySelector("body");
 
 const togglePersonalProjects = document.querySelector(
   "#toggle-personalProjects"
@@ -14,11 +15,13 @@ const otherProjects = document.querySelector("#otherProjects");
 //Burger menu
 buttonMenu.addEventListener("click", () => {
   navMenu.classList.toggle("menu-visible");
+  body.classList.toggle("body__hidden");
 });
 
 elementMenu.forEach((element) => {
   element.addEventListener("click", () => {
     navMenu.classList.remove("menu-visible");
+    body.classList.remove("body__hidden");
   });
 });
 

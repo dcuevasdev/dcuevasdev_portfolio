@@ -26,6 +26,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.body__hidden {
+  overflow: hidden;
+}
+
 .container {
   width: 90%;
   max-width: 99.2rem;
