@@ -6,6 +6,7 @@ Portafolio personal de Ivan Daniel Cuevas Rojas.
 
 <div align="center">
   <h3>
+  <span> | </span>
     <a href="https://ivandanielcuevas.com/">
       Demo
     </a>
@@ -13,6 +14,7 @@ Portafolio personal de Ivan Daniel Cuevas Rojas.
     <a href="https://github.com/dcuevasdev/dcuevasdev_portfolio">
       Solución
     </a>
+    <span> | </span>
   </h3>
 </div>
 
