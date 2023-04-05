@@ -1,16 +1,15 @@
+window.addEventListener("DOMContentLoaded", navigator, false);
+window.addEventListener("hashchange", navigator, false);
+
+function navigator() {
+  location.hash.startsWith("#youtube") ? youtubePage() : homePage();
+}
+
+//======Header======//
 const buttonMenu = document.querySelector(".header__toggle");
 const navMenu = document.querySelector(".header__nav");
 const elementMenu = [...document.querySelectorAll(".nav__element")];
 const body = document.querySelector("body");
-
-const togglePersonalProjects = document.querySelector(
-  "#toggle-personalProjects"
-);
-const toggleChallenges = document.querySelector("#toggle-challenges");
-const toggleOtherProjects = document.querySelector("#toggle-otherProjects");
-const personalProjects = document.querySelector("#personalProjects");
-const challengesProjects = document.querySelector("#challengesProjects");
-const otherProjects = document.querySelector("#otherProjects");
 
 //Burger menu
 buttonMenu.addEventListener("click", () => {
@@ -24,6 +23,28 @@ elementMenu.forEach((element) => {
     body.classList.remove("body__hidden");
   });
 });
+
+//======Main nodes======//
+const homeSection = document.querySelector("#home");
+const youtubeSection = document.querySelector("#youtube");
+
+//======Home section======//
+function homePage() {
+  homeSection.classList.remove("inactive");
+  homeSection.classList.add("visible");
+  youtubeSection.classList.add("inactive");
+  youtubeSection.classList.remove("visible");
+}
+
+//Projects nodes
+const togglePersonalProjects = document.querySelector(
+  "#toggle-personalProjects"
+);
+const toggleChallenges = document.querySelector("#toggle-challenges");
+const toggleOtherProjects = document.querySelector("#toggle-otherProjects");
+const personalProjects = document.querySelector("#personalProjects");
+const challengesProjects = document.querySelector("#challengesProjects");
+const otherProjects = document.querySelector("#otherProjects");
 
 //Toggle projects
 togglePersonalProjects.addEventListener("click", () => {
@@ -79,3 +100,11 @@ toggleOtherProjects.addEventListener("click", () => {
     toggleChallenges.classList.remove("line-visible");
   }
 });
+
+//======Youtube section======//
+function youtubePage() {
+  homeSection.classList.add("inactive");
+  homeSection.classList.remove("visible");
+  youtubeSection.classList.remove("inactive");
+  youtubeSection.classList.add("visible");
+}

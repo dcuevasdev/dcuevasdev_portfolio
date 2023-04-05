@@ -35,3 +35,10 @@ html {
   max-width: 99.2rem;
   margin: 0 auto;
 }
+
+.inactive {
+  display: none;
+}
+.visible {
+  display: block;
+}
