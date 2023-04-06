@@ -1,3 +1,5 @@
+import { API_VIDEOS, OPTIONS, generateVideos } from "./pages/youtube.js";
+
 window.addEventListener("DOMContentLoaded", navigator, false);
 window.addEventListener("hashchange", navigator, false);
 
@@ -108,3 +110,5 @@ function youtubePage() {
   youtubeSection.classList.remove("inactive");
   youtubeSection.classList.add("visible");
 }
+
+generateVideos(API_VIDEOS, OPTIONS);

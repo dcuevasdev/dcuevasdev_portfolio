@@ -17,10 +17,9 @@ async function fetchData(urlApi, obj) {
 
 const containerVideos = document.querySelector(".youtube__videos");
 
-const generateVideos = async (urlApi, obj) => {
+async function generateVideos(urlApi, obj) {
   try {
     const videos = await fetchData(urlApi, obj);
-    console.log(videos);
 
     const toRender = videos.items
       .map((element) => {
@@ -37,8 +36,8 @@ const generateVideos = async (urlApi, obj) => {
   } catch (error) {
     console.log(error);
   }
-};
+}
 
-generateVideos(API_VIDEOS, OPTIONS);
+export { API_VIDEOS, OPTIONS, generateVideos };
 
 //export default { generateVideos };
