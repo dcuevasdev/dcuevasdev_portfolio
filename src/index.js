@@ -1,3 +1,5 @@
+import "./Styles/css/style.css";
+import "./Styles/css/desktop.css";
 import { API_VIDEOS, OPTIONS, generateVideos } from "./pages/youtube.js";
 
 window.addEventListener("DOMContentLoaded", navigator, false);

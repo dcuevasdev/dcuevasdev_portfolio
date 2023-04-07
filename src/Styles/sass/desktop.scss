@@ -1,52 +1,54 @@
-@import "_globalAndVariables";
+@media (min-width: 992px) {
+  @import "_globalAndVariables";
 
-/*======Header======*/
-.header {
-  align-items: center;
-  &__nav {
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 60rem;
-    height: 2.4rem;
-    background-color: transparent;
-    &-menu {
-      flex-direction: row;
-      justify-content: space-between;
-      align-content: center;
+  /*======Header======*/
+  .header {
+    align-items: center;
+    &__nav {
+      position: relative;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 60rem;
+      height: 2.4rem;
+      background-color: transparent;
+      &-menu {
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+      }
+    }
+    &__toggle {
+      display: none;
     }
   }
-  &__toggle {
-    display: none;
-  }
-}
 
-/*======Hero======*/
-.hero {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  &__info {
-    width: 70%;
-  }
-  &__image {
-    margin-top: 0;
-    &-decoration {
-      width: 15rem;
-      left: 2.4rem;
-      top: 5.6rem;
-    }
-    &-profile {
-      width: 90%;
-      margin: 0 0 0 auto;
-    }
-  }
-}
-
-/*======Projects======*/
-.projects {
-  &__cards {
+  /*======Hero======*/
+  .hero {
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    &__info {
+      width: 70%;
+    }
+    &__image {
+      margin-top: 0;
+      &-decoration {
+        width: 15rem;
+        left: 2.4rem;
+        top: 5.6rem;
+      }
+      &-profile {
+        width: 90%;
+        margin: 0 0 0 auto;
+      }
+    }
+  }
+
+  /*======Projects======*/
+  .projects {
+    &__cards {
+      justify-content: space-between;
+    }
   }
 }

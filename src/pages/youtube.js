@@ -4,7 +4,7 @@ const API_VIDEOS =
 const OPTIONS = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": API,
+    "X-RapidAPI-Key": process.env.API,
     "X-RapidAPI-Host": "youtube-v31.p.rapidapi.com",
   },
 };
@@ -24,7 +24,7 @@ async function generateVideos(urlApi, obj) {
     const toRender = videos.items
       .map((element) => {
         return `
-                <div class="youtube__videos-card">
+          <div class="youtube__videos-card">
             <img src="${element.snippet.thumbnails.medium.url}" alt="${element.snippet.thumbnails.title}" />
             <p> <a href="https://www.youtube.com/watch?v=${element.id.videoId}" target="_blank">${element.snippet.title}</a></p>
           </div>

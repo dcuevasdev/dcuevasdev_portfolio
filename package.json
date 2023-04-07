@@ -4,6 +4,9 @@
   "description": "Portafolio web de Ivan Daniel Cuevas Rojas ",
   "main": "index.js",
   "scripts": {
+    "build": "node ./scripts/create-env.js && webpack --config webpack.config.js",
+    "dev": "webpack --config webpack.config.dev.js",
+    "watch": "npm run dev --watch",
     "mobile": "sass --watch ./src/Styles/sass/style.scss:./src/Styles/css/style.css",
     "desktop": "sass --watch ./src/Styles/sass/desktop.scss:./src/Styles/css/desktop.css"
   },
@@ -13,6 +16,22 @@
     "sass": "^1.58.3"
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "@babel/core": "^7.21.4",
+    "@babel/plugin-transform-runtime": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "dotenv-webpack": "^8.0.1",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "terser-webpack-plugin": "^5.3.7",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1"
   }
 }
