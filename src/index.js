@@ -111,6 +111,6 @@ function youtubePage() {
   homeSection.classList.remove("visible");
   youtubeSection.classList.remove("inactive");
   youtubeSection.classList.add("visible");
-}
 
-generateVideos(API_VIDEOS, OPTIONS);
+  generateVideos(API_VIDEOS, OPTIONS);
+}
