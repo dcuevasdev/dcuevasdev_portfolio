@@ -271,7 +271,12 @@ html {
 .projects__cards .card__tags .css,
 .projects__cards .card__tags .sass,
 .projects__cards .card__tags .js,
-.projects__cards .card__tags .wordpress {
+.projects__cards .card__tags .wordpress,
+.projects__cards .card__tags .investigation,
+.projects__cards .card__tags .materials,
+.projects__cards .card__tags .manufacturing,
+.projects__cards .card__tags .design,
+.projects__cards .card__tags .solid {
   padding: 0.1rem 0.4rem;
   border-radius: 0.4rem;
   font-size: 1.2rem;
@@ -295,6 +300,26 @@ html {
 .projects__cards .card__tags .wordpress {
   border: 1px solid #1b769c;
   color: #1b769c;
+}
+.projects__cards .card__tags .investigation {
+  border: 1px solid #e74c3c;
+  color: #e74c3c;
+}
+.projects__cards .card__tags .materials {
+  border: 1px solid #148f77;
+  color: #148f77;
+}
+.projects__cards .card__tags .manufacturing {
+  border: 1px solid #7d3c98;
+  color: #7d3c98;
+}
+.projects__cards .card__tags .design {
+  border: 1px solid #1a5276;
+  color: #1a5276;
+}
+.projects__cards .card__tags .solid {
+  border: 1px solid #e31818;
+  color: #e31818;
 }
 .projects__cards .card__title {
   margin-top: 0.8rem;

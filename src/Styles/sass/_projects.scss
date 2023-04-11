@@ -55,7 +55,12 @@
         .css,
         .sass,
         .js,
-        .wordpress {
+        .wordpress,
+        .investigation,
+        .materials,
+        .manufacturing,
+        .design,
+        .solid {
           padding: 0.1rem 0.4rem;
           border-radius: 0.4rem;
           font-size: 1.2rem;
@@ -79,6 +84,26 @@
         .wordpress {
           border: 1px solid #1b769c;
           color: #1b769c;
+        }
+        .investigation {
+          border: 1px solid #e74c3c;
+          color: #e74c3c;
+        }
+        .materials {
+          border: 1px solid #148f77;
+          color: #148f77;
+        }
+        .manufacturing {
+          border: 1px solid #7d3c98;
+          color: #7d3c98;
+        }
+        .design {
+          border: 1px solid #1a5276;
+          color: #1a5276;
+        }
+        .solid {
+          border: 1px solid #e31818;
+          color: #e31818;
         }
       }
       &__title {
