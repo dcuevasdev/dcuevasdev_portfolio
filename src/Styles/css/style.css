@@ -213,7 +213,6 @@ html {
 
 .projects {
   margin-top: 4.8rem;
-  margin-bottom: 50px;
 }
 .projects__title {
   font-size: 2.4rem;
@@ -375,6 +374,42 @@ html {
     width: 50%;
   }
 }
+.experience {
+  margin-top: 4.8rem;
+  margin-bottom: 50px;
+}
+.experience__title {
+  font-size: 2.4rem;
+}
+.experience__card {
+  margin-top: 1.6rem;
+  padding: 3.2rem;
+  border-radius: 1.6rem;
+  background-color: #fff;
+}
+.experience__card-title {
+  font-size: 2rem;
+  color: #3e00ff;
+}
+.experience__card-subtitle {
+  font-size: 1.6rem;
+}
+.experience__card-date {
+  font-size: 1.2rem;
+}
+.experience__card-description {
+  margin-top: 0.8rem;
+  font-size: 1.6rem;
+}
+.experience__card-list {
+  margin-top: 0.8rem;
+  margin-left: 2.4rem;
+  list-style-position: inside;
+}
+.experience__card-list li {
+  font-size: 1.6rem;
+}
+
 .youtube__image {
   margin-top: 4.8rem;
 }
