@@ -4,27 +4,26 @@
   &__title {
     font-size: 2.4rem;
   }
-  &__info {
+  &__info,
+  &__info-skills {
     margin-top: 1.6rem;
-    padding: 1.6rem;
+    padding: 3.2rem;
     border-radius: 1.6rem;
     background-color: #fff;
-    &-title {
-      font-size: 2rem;
-    }
     &-description {
-      margin-top: 1.6rem;
       font-size: 1.6rem;
+      b {
+        color: $primary-color;
+      }
     }
     &-titleSkills {
-      margin-top: 1.6rem;
-      font-size: 1.6rem;
+      margin-top: 2.4rem;
+      font-size: 2rem;
     }
     &-skills {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
-      margin-top: 1.6rem;
       .skill__container {
         display: flex;
         flex-direction: column;
@@ -39,18 +38,21 @@
   }
   &__teach {
     margin-top: 1.6rem;
-    padding: 1.6rem;
+    padding: 3.2rem;
     border-radius: 1.6rem;
     background-color: #fff;
     &-title {
+      margin-top: 2.4rem;
       font-size: 2rem;
       .em-pencil2 {
         font-size: 1rem;
       }
     }
     &-description {
-      margin-top: 1.6rem;
       font-size: 1.6rem;
+      b {
+        color: $primary-color;
+      }
       a {
         font-weight: 600;
         color: $primary-color;

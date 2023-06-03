@@ -145,54 +145,55 @@ html {
 .about__title {
   font-size: 2.4rem;
 }
-.about__info {
+.about__info, .about__info-skills {
   margin-top: 1.6rem;
-  padding: 1.6rem;
+  padding: 3.2rem;
   border-radius: 1.6rem;
   background-color: #fff;
 }
-.about__info-title {
+.about__info-description, .about__info-skills-description {
+  font-size: 1.6rem;
+}
+.about__info-description b, .about__info-skills-description b {
+  color: #3e00ff;
+}
+.about__info-titleSkills, .about__info-skills-titleSkills {
+  margin-top: 2.4rem;
   font-size: 2rem;
 }
-.about__info-description {
-  margin-top: 1.6rem;
-  font-size: 1.6rem;
-}
-.about__info-titleSkills {
-  margin-top: 1.6rem;
-  font-size: 1.6rem;
-}
-.about__info-skills {
+.about__info-skills, .about__info-skills-skills {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 1.6rem;
 }
-.about__info-skills .skill__container {
+.about__info-skills .skill__container, .about__info-skills-skills .skill__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
 }
-.about__info-skills .skill__container small {
+.about__info-skills .skill__container small, .about__info-skills-skills .skill__container small {
   font-size: 1.2rem;
   font-weight: 900;
 }
 .about__teach {
   margin-top: 1.6rem;
-  padding: 1.6rem;
+  padding: 3.2rem;
   border-radius: 1.6rem;
   background-color: #fff;
 }
 .about__teach-title {
+  margin-top: 2.4rem;
   font-size: 2rem;
 }
 .about__teach-title .em-pencil2 {
   font-size: 1rem;
 }
 .about__teach-description {
-  margin-top: 1.6rem;
   font-size: 1.6rem;
+}
+.about__teach-description b {
+  color: #3e00ff;
 }
 .about__teach-description a {
   font-weight: 600;
@@ -223,14 +224,14 @@ html {
   margin-top: 1.6rem;
 }
 .projects__areas li {
-  width: 33%;
+  width: 25%;
   text-align: center;
   list-style: none;
 }
 .projects__areas li button {
   width: 100%;
   height: 100%;
-  padding: 0.4rem;
+  padding: 1.6rem;
   border: none;
   background: none;
   font-size: 1.4rem;
@@ -239,7 +240,7 @@ html {
   outline: none;
 }
 .projects__areas .line-visible {
-  border-bottom: 0.4rem solid #3e00ff;
+  border-bottom: 0.2rem solid #3e00ff;
 }
 .projects__cards {
   display: flex;
@@ -250,8 +251,8 @@ html {
 }
 .projects__cards .card {
   width: 90%;
-  height: auto;
-  max-width: 40rem;
+  height: fit-content;
+  max-width: 48rem;
   border-radius: 1.6rem;
   background: #fff;
   box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.2);
@@ -263,9 +264,10 @@ html {
 }
 .projects__cards .card__tags {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.6rem;
   margin-top: 0.8rem;
-  padding: 0 1.6rem;
+  padding: 0 3.2rem;
 }
 .projects__cards .card__tags .html,
 .projects__cards .card__tags .css,
@@ -323,19 +325,19 @@ html {
 }
 .projects__cards .card__title {
   margin-top: 0.8rem;
-  padding: 0 1.6rem;
+  padding: 0 3.2rem;
   font-size: 1.6rem;
 }
 .projects__cards .card__description {
   margin-top: 0.8rem;
-  padding: 0 1.6rem;
+  padding: 0 3.2rem;
   font-size: 1.2rem;
 }
 .projects__cards .card__callToAction {
   display: flex;
   gap: 2.4rem;
   margin: 1.6rem 0;
-  padding: 0 1.6rem;
+  padding: 0 3.2rem;
 }
 .projects__cards .card__callToAction .button a {
   display: flex;

@@ -37,6 +37,7 @@
   /*======Header======*/
   .header {
     align-items: center;
+    margin-top: 3.2rem;
   }
   .header__nav {
     position: relative;
