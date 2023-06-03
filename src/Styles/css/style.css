@@ -367,6 +367,14 @@ html {
   display: none;
 }
 
+@media (max-width: 550px) {
+  .projects__areas {
+    flex-wrap: wrap;
+  }
+  .projects__areas li {
+    width: 50%;
+  }
+}
 .youtube__image {
   margin-top: 4.8rem;
 }
